@@ -17,6 +17,10 @@ func main() {
 	sobrenome = "albuquerque" //acrescentando mais um valor a mesma variavel
 	fmt.Println(sobrenome)
 
+	sobrenome = "brito"
+	fmt.Println(sobrenome)
+
 	altura := 1.65 //declarando uma variavel do tipo float
 	fmt.Println(altura)
+
 }
