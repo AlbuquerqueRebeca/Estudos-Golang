@@ -12,6 +12,10 @@ func main() {
 	div := divisao(50, 23)
 	fmt.Println(div)
 
+	//String
+	nome, sobrenome := nomeCompleto("Rebeca", "Albuquerque")
+	fmt.Println(nome, sobrenome)
+
 }
 
 func soma(x int, y int) int {
@@ -24,4 +28,9 @@ func subtracao(x int, y int) int {
 
 func divisao(x int, y int) int {
 	return x / y
+}
+
+// função com streing
+func nomeCompleto(nome, sobrenome string) (string, string) {
+	return nome, sobrenome
 }
